@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    overflow: hidden;
+}
+#infoBoard{
+    position: absolute;
+    z-index:10;
+    color:white;
+}
+#center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: #555555;
+
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+}
