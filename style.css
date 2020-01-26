@@ -2,14 +2,13 @@ body{
     margin: 0;
     overflow: hidden;
 }
-#infoBoard{
+.infoBoard{
     position: absolute;
     z-index:10;
     color:white;
 }
-#center{
+.centerbtn{
     position: absolute;
-    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
@@ -22,4 +21,15 @@ body{
     display: inline-block;
     font-size: 20px;
     cursor: pointer;
+}
+#startbtn{
+    top: 50%;
+}
+#howtoplaybtn{
+    top: 60%;
+}
+#resultBoard{
+    font-size: 300%;
+    top:45%;
+    left:45%;
 }
